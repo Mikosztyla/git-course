@@ -7,14 +7,11 @@ const config: DocsThemeConfig = {
         link: 'https://github.com/Mikosztyla/git-course',
     },
     docsRepositoryBase: 'https://github.com/Mikosztyla/git-course/tree/main',
-    editLink: {
-        content: 'Edit this page on GitHub',
-    },
     feedback: {
-        content: 'Found an issue? Let us know!',
+        content: 'Coś się nie zgadza - daj mi znać!',
     },
     footer: {
-        content: 'Learn Git - A Comprehensive Guide',
+        content: 'Przekonaj się, że Git tak naprawde jest git 😎',
     },
 };
 
