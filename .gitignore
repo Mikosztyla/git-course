@@ -10,10 +10,12 @@
 !.yarn/releases
 !.yarn/versions
 .idea
-.next
 
 # testing
 /coverage
+
+# next.js
+/.next/
 
 # production
 /build
