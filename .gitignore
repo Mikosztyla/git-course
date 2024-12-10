@@ -10,7 +10,8 @@
 !.yarn/releases
 !.yarn/versions
 .idea
-
+out
+.next
 # testing
 /coverage
 
