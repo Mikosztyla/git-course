@@ -29,9 +29,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Clear build cache
-        run: |
-          rm -rf .next
       - name: Checkout
         uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -69,7 +66,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: /
 
   # Deployment job
   deploy:

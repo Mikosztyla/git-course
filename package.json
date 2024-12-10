@@ -6,7 +6,7 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out"
+    "deploy": "npm run build && gh-pages -d out"
   },
   "author": {
     "name": "Mikołaj Gosztyła",
