@@ -1,7 +1,7 @@
 export default {
 
     index: {
-        title: 'Strona główna',
+        title: 'Strona główna'
     },
     "---": {
         type: "separator"
@@ -24,12 +24,11 @@ export default {
                 type: "page",
                 title: "3. gitignore",
                 href: "/topics/03-gitignore"
-            },
-            "99-commands": {
-                type: "page",
-                title: "Przydatne komendy",
-                href: "/topics/99-commands"
             }
-        },
+        }
+    },
+    commands: {
+        type: 'page',
+        title: "Przydatne komendy"
     }
 }

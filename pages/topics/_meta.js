@@ -10,9 +10,5 @@ export default {
     "03-gitignore": {
         title: "Gitignore",
         type: "page"
-    },
-    "99-commands": {
-        title: "Komendy",
-        type: "page"
-    },
+    }
 }

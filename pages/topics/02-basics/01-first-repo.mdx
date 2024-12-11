@@ -1,0 +1,48 @@
+import {Callout} from 'nextra/components'
+
+# Stworzenie pierwszego repozytorium
+
+Zacznijmy od podstaw podstaw - sprawdź czy masz *Git-a*. Otwórz ulubiony wiersz poleceń i wykonaj komendę:
+```bash
+  git -v
+```
+Jeżeli wyświetli się coś innego niż błąd, to lecimy dalej.\
+Jeżeli nie to pobierz [*Git-a*](https://git-scm.com/downloads).
+
+## Konfiguracja *Git-a*
+
+Na początku musisz zdefiniować kim jesteś. Kim jesteś dla *Git-a* oczywiście.
+
+Ustaw swoje imię za pomocą komendy:
+```bash
+  git config --global user.name "Twoje imie"
+```
+i swój e-mail:
+```bash
+  git config --global user.email "twoj.mail@example.com"
+```
+
+Będą to twoje dane używane do zidentyfikowania autora "commita" - co to "commit" dowiemy się za chwile.
+Sprawdź czy wszystko się zgadza:
+```bash
+  git config user.name
+  git config user.email
+```
+
+## Tworzenie repozytorium
+
+Teraz możemy już stworzyć swoje pierwsze repozytorium. Ale co to tak na prawdę jest to ***repozytorium***?
+
+<Callout type="info" emoji="ℹ️">
+    **Repozytorium** (w slangu "repo") to taki folder plików na sterydach. Również przechowuje on pliki lub podfoldery twoje projektu, ale umożliwia on pracę z *Git-em*. Rozróżniamy 2 typy:
+    - **lokalne repozytorium** (local repository) - jest to stan plików projektu znajdujących się u Ciebie **lokalnie** na komputerze
+    - **zdalne repozytorium** (remote repository) - jest to **aktualny** stan plików projektu w **chmurze**
+</Callout>
+
+Dość gadania, tworzymy lokalne repo:
+```bash
+  git init
+```
+Tak, to tyle, gratulacje! Pierwsze repo stworzone 😆.
+
+Zobacz, że w folderze, gdzie to repo zostało stworzony folder `.git`. Dzięki temu działa cała magia *Git-a*, ale **NIE** będziemy tam w środku nic edytować. Zostawiamy go w spokoju. Serio.
