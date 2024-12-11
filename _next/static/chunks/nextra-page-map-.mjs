@@ -1,21 +1,14 @@
 import meta from "../../../pages/_meta.js";
-import _99_commands_meta from "../../../pages/99-commands/_meta.js";
 import topics_meta from "../../../pages/topics/_meta.js";
 import topics_01_introduction_meta from "../../../pages/topics/01-introduction/_meta.js";
 export const pageMap = [{
   data: meta
 }, {
-  name: "99-commands",
-  route: "/99-commands",
-  children: [{
-    data: _99_commands_meta
-  }, {
-    name: "index",
-    route: "/99-commands",
-    frontMatter: {
-      "sidebarTitle": "Index"
-    }
-  }]
+  name: "commands",
+  route: "/commands",
+  frontMatter: {
+    "sidebarTitle": "Commands"
+  }
 }, {
   name: "index",
   route: "/",
