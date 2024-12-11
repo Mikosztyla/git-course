@@ -1,6 +1,7 @@
 import meta from "../../../pages/_meta.js";
 import topics_meta from "../../../pages/topics/_meta.js";
 import topics_01_introduction_meta from "../../../pages/topics/01-introduction/_meta.js";
+import topics_99_commands_meta from "../../../pages/topics/99-commands/_meta.js";
 export const pageMap = [{
   data: meta
 }, {
@@ -62,6 +63,8 @@ export const pageMap = [{
     name: "99-commands",
     route: "/topics/99-commands",
     children: [{
+      data: topics_99_commands_meta
+    }, {
       name: "index",
       route: "/topics/99-commands",
       frontMatter: {
