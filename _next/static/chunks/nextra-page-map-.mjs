@@ -1,6 +1,7 @@
 import meta from "../../../pages/_meta.js";
 import topics_meta from "../../../pages/topics/_meta.js";
 import topics_01_introduction_meta from "../../../pages/topics/01-introduction/_meta.js";
+import topics_02_basics_meta from "../../../pages/topics/02-basics/_meta.js";
 export const pageMap = [{
   data: meta
 }, {
@@ -48,6 +49,14 @@ export const pageMap = [{
     name: "02-basics",
     route: "/topics/02-basics",
     children: [{
+      data: topics_02_basics_meta
+    }, {
+      name: "01-first-repo",
+      route: "/topics/02-basics/01-first-repo",
+      frontMatter: {
+        "sidebarTitle": "01 First Repo"
+      }
+    }, {
       name: "index",
       route: "/topics/02-basics",
       frontMatter: {

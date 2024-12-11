@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[830],{7038:(_,s,e)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/topics/02-basics/_meta",function(){return e(2920)}])},2920:(_,s,e)=>{"use strict";e.r(s),e.d(s,{__N_SSG:()=>u,default:()=>n});var u=!0;let n=()=>null}},_=>{var s=s=>_(_.s=s);_.O(0,[636,593,792],()=>s(7038)),_N_E=_.O()}]);
