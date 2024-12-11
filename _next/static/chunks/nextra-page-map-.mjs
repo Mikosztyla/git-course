@@ -57,6 +57,12 @@ export const pageMap = [{
         "sidebarTitle": "01 First Repo"
       }
     }, {
+      name: "02-first-commit",
+      route: "/topics/02-basics/02-first-commit",
+      frontMatter: {
+        "sidebarTitle": "02 First Commit"
+      }
+    }, {
       name: "index",
       route: "/topics/02-basics",
       frontMatter: {
