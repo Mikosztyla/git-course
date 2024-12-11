@@ -87,6 +87,18 @@ export const pageMap = [{
         "sidebarTitle": "06 First Conflict"
       }
     }, {
+      name: "07-first-pull",
+      route: "/topics/02-basics/07-first-pull",
+      frontMatter: {
+        "sidebarTitle": "07 First Pull"
+      }
+    }, {
+      name: "08-summary",
+      route: "/topics/02-basics/08-summary",
+      frontMatter: {
+        "sidebarTitle": "08 Summary"
+      }
+    }, {
       name: "index",
       route: "/topics/02-basics",
       frontMatter: {
