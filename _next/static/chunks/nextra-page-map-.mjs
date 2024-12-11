@@ -69,6 +69,12 @@ export const pageMap = [{
         "sidebarTitle": "03 First Push"
       }
     }, {
+      name: "04-first-branch",
+      route: "/topics/02-basics/04-first-branch",
+      frontMatter: {
+        "sidebarTitle": "04 First Branch"
+      }
+    }, {
       name: "index",
       route: "/topics/02-basics",
       frontMatter: {
